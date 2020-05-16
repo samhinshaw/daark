@@ -1,0 +1,27 @@
+{
+  "name": "Daark",
+  "displayName": "Daark",
+  "description": "Not a light theme.",
+  "version": "0.0.1",
+  "publisher": "samhinshaw",
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samhinshaw/daark.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Daark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Daark.json"
+      }
+    ]
+  }
+}
